@@ -1,0 +1,107 @@
+/* El primer estilo siempre se usa para normalizar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1FAEE;
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A8DADC;
+    border-radius: 0 0 32px 32px;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    
+}
+
+header img{
+    border: 1px solid rgb(3, 3, 3);
+    width: 175px;
+    border-radius: 50%;
+    /* con 50% se logra un circulo */
+}
+
+.menu ul{
+    display: flex;
+    padding: 18px;
+    border-radius: 15px;
+    /* border: 1px solid rgb(76, 0, 255); */
+}
+
+/* Para quitar los puntos de la lista ul se debe usar list style none */
+
+.menu ul li{
+    margin-right: 45px;
+    list-style: none;
+    font-size: 35px;
+    color: #d4a373;
+}
+
+.img-central{
+        height: 600px; /* Altura del contenedor virtual */
+        display: block;
+        margin: 0 auto; /* Centra horizontalmente */
+        /* object-fit: cover; Ajusta cómo se recorta la imagen */
+        width: 100%; /* Ajusta el ancho al contenedor padre o a la pantalla */
+        max-width: 100%; /* Opcional: Limita el ancho máximo */
+        border-radius: 32px;
+    }
+    
+section{
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px; 
+    /* border: red solid 1px; */
+    border-radius: 32px;
+    background-color: #457B9D;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cuadro-1{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    /* border: rgb(17, 0, 255) solid 1px; */
+    background-color: #457B9D;
+}
+
+.cuadro-1 img{
+    width: 250px; 
+    height: 250px; 
+    margin-bottom: 15px;
+}
+
+section p{
+    color: #1D3557;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A8DADC;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+}
+
+footer{
+    display: block;
+    background-color: #A8DADC;
+    text-align: center;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.img-pie{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    background-color: #A8DADC;
+}
+
+.img-pie a{
+    border-radius: 10%;
+    background-color: #A8DADC;
+}
